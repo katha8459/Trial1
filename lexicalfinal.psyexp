@@ -1,0 +1,176 @@
+<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="3.0.6">
+  <Settings>
+    <Param name="Completed URL" updates="None" val="" valType="str"/>
+    <Param name="Data filename" updates="None" val="u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])" valType="code"/>
+    <Param name="Enable Escape" updates="None" val="True" valType="bool"/>
+    <Param name="Experiment info" updates="None" val="{'participant': '', 'session': '001'}" valType="code"/>
+    <Param name="Force stereo" updates="None" val="True" valType="bool"/>
+    <Param name="Full-screen window" updates="None" val="True" valType="bool"/>
+    <Param name="HTML path" updates="None" val="html" valType="str"/>
+    <Param name="Incomplete URL" updates="None" val="" valType="str"/>
+    <Param name="JS libs" updates="None" val="packaged" valType="str"/>
+    <Param name="Monitor" updates="None" val="testMonitor" valType="str"/>
+    <Param name="Save csv file" updates="None" val="False" valType="bool"/>
+    <Param name="Save excel file" updates="None" val="True" valType="bool"/>
+    <Param name="Save log file" updates="None" val="True" valType="bool"/>
+    <Param name="Save psydat file" updates="None" val="True" valType="bool"/>
+    <Param name="Save wide csv file" updates="None" val="False" valType="bool"/>
+    <Param name="Screen" updates="None" val="1" valType="num"/>
+    <Param name="Show info dlg" updates="None" val="True" valType="bool"/>
+    <Param name="Show mouse" updates="None" val="False" valType="bool"/>
+    <Param name="Units" updates="None" val="height" valType="str"/>
+    <Param name="Use version" updates="None" val="" valType="str"/>
+    <Param name="Window size (pixels)" updates="None" val="[1280, 800]" valType="code"/>
+    <Param name="blendMode" updates="None" val="avg" valType="str"/>
+    <Param name="color" updates="None" val="$[0,0,0]" valType="str"/>
+    <Param name="colorSpace" updates="None" val="rgb" valType="str"/>
+    <Param name="expName" updates="None" val="lexicalfinal" valType="str"/>
+    <Param name="exportHTML" updates="None" val="manually" valType="str"/>
+    <Param name="logging level" updates="None" val="exp" valType="code"/>
+  </Settings>
+  <Routines>
+    <Routine name="intruc1">
+      <TextComponent name="text">
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="code"/>
+        <Param name="name" updates="None" val="text" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="3.0" valType="code"/>
+        <Param name="text" updates="constant" val="Thanks for your participation in this activity" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="Intruc2">
+      <TextComponent name="text_2">
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.07" valType="code"/>
+        <Param name="name" updates="None" val="text_2" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="text" updates="constant" val="You will see a word on the screen,&amp;#10;if you think it is a REAL SPANISH word and you can explain it to a friend press -Y-&amp;#10;If it is a non-sense word or you do not know it press N&amp;#10;Press the space bar to continue" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_3">
+        <Param name="allowedKeys" updates="constant" val="'space'" valType="code"/>
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="key_resp_3" valType="code"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="trial">
+      <TextComponent name="text_3">
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="code"/>
+        <Param name="name" updates="None" val="text_3" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="text" updates="set every repeat" val="$word" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_2">
+        <Param name="allowedKeys" updates="constant" val="'y','n'," valType="code"/>
+        <Param name="correctAns" updates="constant" val="y, n" valType="str"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="key_resp_2" valType="code"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="True" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="final">
+      <TextComponent name="text_4">
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="code"/>
+        <Param name="name" updates="None" val="text_4" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="text" updates="constant" val="Thank you , the activity has ended" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+      </TextComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="intruc1"/>
+    <Routine name="Intruc2"/>
+    <LoopInitiator loopType="TrialHandler" name="trials">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[OrderedDict([('word', 'vivir'), ('correctAns', 'y')]), OrderedDict([('word', 'matrimonio'), ('correctAns', 'y')]), OrderedDict([('word', 'colgar'), ('correctAns', 'y')]), OrderedDict([('word', 'encendido'), ('correctAns', 'y')]), OrderedDict([('word', 'caridad'), ('correctAns', 'y')]), OrderedDict([('word', 'perder'), ('correctAns', 'y')]), OrderedDict([('word', 'acontecimiento'), ('correctAns', 'y')]), OrderedDict([('word', 'aceite'), ('correctAns', 'y')]), OrderedDict([('word', 'cazar'), ('correctAns', 'y')]), OrderedDict([('word', 'indudable'), ('correctAns', 'y')]), OrderedDict([('word', 'mil'), ('correctAns', 'y')]), OrderedDict([('word', 'ajeno'), ('correctAns', 'y')]), OrderedDict([('word', 'selva'), ('correctAns', 'y')]), OrderedDict([('word', 'cemento'), ('correctAns', 'y')]), OrderedDict([('word', 'cuidadoso'), ('correctAns', 'y')]), OrderedDict([('word', 'calle'), ('correctAns', 'y')]), OrderedDict([('word', 'tren'), ('correctAns', 'y')]), OrderedDict([('word', 'valioso'), ('correctAns', 'y')]), OrderedDict([('word', 'enfermero'), ('correctAns', 'y')]), OrderedDict([('word', 'vejez'), ('correctAns', 'y')]), OrderedDict([('word', 'morir'), ('correctAns', 'y')]), OrderedDict([('word', 'cadena'), ('correctAns', 'y')]), OrderedDict([('word', 'cuadrado'), ('correctAns', 'y')]), OrderedDict([('word', 'descargar'), ('correctAns', 'y')]), OrderedDict([('word', 'poblar'), ('correctAns', 'y')]), OrderedDict([('word', 'pagar'), ('correctAns', 'y')]), OrderedDict([('word', 'silla'), ('correctAns', 'y')]), OrderedDict([('word', 'copa'), ('correctAns', 'y')]), OrderedDict([('word', 'reemplazar'), ('correctAns', 'y')]), OrderedDict([('word', 'ida'), ('correctAns', 'y')]), OrderedDict([('word', 'comer'), ('correctAns', 'y')]), OrderedDict([('word', 'fuego'), ('correctAns', 'y')]), OrderedDict([('word', 'ruso'), ('correctAns', 'y')]), OrderedDict([('word', 'prisa'), ('correctAns', 'y')]), OrderedDict([('word', 'mármol'), ('correctAns', 'y')]), OrderedDict([('word', 'aprender'), ('correctAns', 'y')]), OrderedDict([('word', 'pegar'), ('correctAns', 'y')]), OrderedDict([('word', 'judío'), ('correctAns', 'y')]), OrderedDict([('word', 'lástima'), ('correctAns', 'y')]), OrderedDict([('word', 'parroquia'), ('correctAns', 'y')]), OrderedDict([('word', 'esfuerzo'), ('correctAns', 'y')]), OrderedDict([('word', 'verdaderamente'), ('correctAns', 'y')]), OrderedDict([('word', 'desarrollado'), ('correctAns', 'y')]), OrderedDict([('word', 'pauta'), ('correctAns', 'y')]), OrderedDict([('word', 'cima'), ('correctAns', 'y')]), OrderedDict([('word', 'lleno'), ('correctAns', 'y')]), OrderedDict([('word', 'seguido'), ('correctAns', 'y')]), OrderedDict([('word', 'amable'), ('correctAns', 'y')]), OrderedDict([('word', 'cocinar'), ('correctAns', 'y')]), OrderedDict([('word', 'conejo'), ('correctAns', 'y')]), OrderedDict([('word', 'escuela'), ('correctAns', 'y')]), OrderedDict([('word', 'beber'), ('correctAns', 'y')]), OrderedDict([('word', 'pelota'), ('correctAns', 'y')]), OrderedDict([('word', 'despacio'), ('correctAns', 'y')]), OrderedDict([('word', 'apurar'), ('correctAns', 'y')]), OrderedDict([('word', 'joven'), ('correctAns', 'y')]), OrderedDict([('word', 'rendir'), ('correctAns', 'y')]), OrderedDict([('word', 'despacho'), ('correctAns', 'y')]), OrderedDict([('word', 'reparto'), ('correctAns', 'y')]), OrderedDict([('word', 'abanico'), ('correctAns', 'y')]), OrderedDict([('word', 'lanzar'), ('correctAns', 'y')]), OrderedDict([('word', 'amarillo'), ('correctAns', 'y')]), OrderedDict([('word', 'trozo'), ('correctAns', 'y')]), OrderedDict([('word', 'martes'), ('correctAns', 'y')]), OrderedDict([('word', 'encabezar'), ('correctAns', 'y')]), OrderedDict([('word', 'mar'), ('correctAns', 'y')]), OrderedDict([('word', 'mezcla'), ('correctAns', 'y')]), OrderedDict([('word', 'remontar'), ('correctAns', 'y')]), OrderedDict([('word', 'incierto'), ('correctAns', 'y')]), OrderedDict([('word', 'dichoso'), ('correctAns', 'y')]), OrderedDict([('word', 'precio'), ('correctAns', 'y')]), OrderedDict([('word', 'cocina'), ('correctAns', 'y')]), OrderedDict([('word', 'mediodía'), ('correctAns', 'y')]), OrderedDict([('word', 'puño'), ('correctAns', 'y')]), OrderedDict([('word', 'congelado'), ('correctAns', 'y')]), OrderedDict([('word', 'junto'), ('correctAns', 'y')]), OrderedDict([('word', 'playa'), ('correctAns', 'y')]), OrderedDict([('word', 'húmedo'), ('correctAns', 'y')]), OrderedDict([('word', 'liso'), ('correctAns', 'y')]), OrderedDict([('word', 'desayunar'), ('correctAns', 'y')]), OrderedDict([('word', 'carne'), ('correctAns', 'y')]), OrderedDict([('word', 'tiro'), ('correctAns', 'y')]), OrderedDict([('word', 'madurez'), ('correctAns', 'y')]), OrderedDict([('word', 'estirar'), ('correctAns', 'y')]), OrderedDict([('word', 'burro'), ('correctAns', 'y')]), OrderedDict([('word', 'debajo'), ('correctAns', 'y')]), OrderedDict([('word', 'suave'), ('correctAns', 'y')]), OrderedDict([('word', 'novio'), ('correctAns', 'y')]), OrderedDict([('word', 'prescindir'), ('correctAns', 'y')]), OrderedDict([('word', 'caldo'), ('correctAns', 'y')]), OrderedDict([('word', 'mío'), ('correctAns', 'y')]), OrderedDict([('word', 'desprender'), ('correctAns', 'y')]), OrderedDict([('word', 'enterrar'), ('correctAns', 'y')]), OrderedDict([('word', 'cuna'), ('correctAns', 'y')]), OrderedDict([('word', 'bicho'), ('correctAns', 'y')]), OrderedDict([('word', 'derecho'), ('correctAns', 'y')]), OrderedDict([('word', 'encerrar'), ('correctAns', 'y')]), OrderedDict([('word', 'convivencia'), ('correctAns', 'y')]), OrderedDict([('word', 'reposo'), ('correctAns', 'y')]), OrderedDict([('word', 'adentrar'), ('correctAns', 'y')]), OrderedDict([('word', 'vino'), ('correctAns', 'y')]), OrderedDict([('word', 'dulce'), ('correctAns', 'y')]), OrderedDict([('word', 'obrero'), ('correctAns', 'y')]), OrderedDict([('word', 'desbordar'), ('correctAns', 'y')]), OrderedDict([('word', 'buey'), ('correctAns', 'y')]), OrderedDict([('word', 'salud'), ('correctAns', 'y')]), OrderedDict([('word', 'muro'), ('correctAns', 'y')]), OrderedDict([('word', 'presionar'), ('correctAns', 'y')]), OrderedDict([('word', 'desechar'), ('correctAns', 'y')]), OrderedDict([('word', 'desconcertado'), ('correctAns', 'y')]), OrderedDict([('word', 'llamada'), ('correctAns', 'y')]), OrderedDict([('word', 'lentamente'), ('correctAns', 'y')]), OrderedDict([('word', 'cabello'), ('correctAns', 'y')]), OrderedDict([('word', 'aula'), ('correctAns', 'y')]), OrderedDict([('word', 'veintidós'), ('correctAns', 'y')]), OrderedDict([('word', 'semejante'), ('correctAns', 'y')]), OrderedDict([('word', 'diseño'), ('correctAns', 'y')]), OrderedDict([('word', 'helado'), ('correctAns', 'y')]), OrderedDict([('word', 'antaño'), ('correctAns', 'y')]), OrderedDict([('word', 'debidamente'), ('correctAns', 'y')]), OrderedDict([('word', 'disalejante'), ('correctAns', 'n')]), OrderedDict([('word', 'robonente'), ('correctAns', 'n')]), OrderedDict([('word', 'canupia'), ('correctAns', 'n')]), OrderedDict([('word', 'benefocio'), ('correctAns', 'n')]), OrderedDict([('word', 'releerizante'), ('correctAns', 'n')]), OrderedDict([('word', 'abucar'), ('correctAns', 'n')]), OrderedDict([('word', 'alcanaban'), ('correctAns', 'n')]), OrderedDict([('word', 'paujón'), ('correctAns', 'n')]), OrderedDict([('word', 'camindante'), ('correctAns', 'n')]), OrderedDict([('word', 'billetar'), ('correctAns', 'n')]), OrderedDict([('word', 'churruminos'), ('correctAns', 'n')]), OrderedDict([('word', 'aprisar'), ('correctAns', 'n')]), OrderedDict([('word', 'confúnfuro'), ('correctAns', 'n')]), OrderedDict([('word', 'recelto'), ('correctAns', 'n')]), OrderedDict([('word', 'alabazante'), ('correctAns', 'n')]), OrderedDict([('word', 'eguero'), ('correctAns', 'n')]), OrderedDict([('word', 'reprendizaje'), ('correctAns', 'n')]), OrderedDict([('word', 'festivar'), ('correctAns', 'n')]), OrderedDict([('word', 'gustamente'), ('correctAns', 'n')]), OrderedDict([('word', 'aprestor'), ('correctAns', 'n')]), OrderedDict([('word', 'larguir'), ('correctAns', 'n')]), OrderedDict([('word', 'olvidencia'), ('correctAns', 'n')]), OrderedDict([('word', 'tiblio'), ('correctAns', 'n')]), OrderedDict([('word', 'sapuntia'), ('correctAns', 'n')]), OrderedDict([('word', 'calorar'), ('correctAns', 'n')]), OrderedDict([('word', 'rechil'), ('correctAns', 'n')]), OrderedDict([('word', 'bellarizante'), ('correctAns', 'n')]), OrderedDict([('word', 'conspiretas'), ('correctAns', 'n')]), OrderedDict([('word', 'llaveno'), ('correctAns', 'n')]), OrderedDict([('word', 'con descuerdo a'), ('correctAns', 'n')]), OrderedDict([('word', 'pelamente'), ('correctAns', 'n')]), OrderedDict([('word', 'por lo jaste'), ('correctAns', 'n')]), OrderedDict([('word', 'recalto'), ('correctAns', 'n')]), OrderedDict([('word', 'traqueno'), ('correctAns', 'n')]), OrderedDict([('word', 'confundizante'), ('correctAns', 'n')]), OrderedDict([('word', 'errórico'), ('correctAns', 'n')]), OrderedDict([('word', 'loñete'), ('correctAns', 'n')]), OrderedDict([('word', 'allegante'), ('correctAns', 'n')]), OrderedDict([('word', 'pitezco'), ('correctAns', 'n')]), OrderedDict([('word', 'subdulante'), ('correctAns', 'n')]), OrderedDict([('word', 'entrañedad'), ('correctAns', 'n')]), OrderedDict([('word', 'guflaitas'), ('correctAns', 'n')]), OrderedDict([('word', 'sin invariancia'), ('correctAns', 'n')]), OrderedDict([('word', 'gurrir'), ('correctAns', 'n')]), OrderedDict([('word', 'perroso'), ('correctAns', 'n')]), OrderedDict([('word', 'hombril'), ('correctAns', 'n')]), OrderedDict([('word', 'ajugante'), ('correctAns', 'n')]), OrderedDict([('word', 'albozar'), ('correctAns', 'n')]), OrderedDict([('word', 'castargia'), ('correctAns', 'n')]), OrderedDict([('word', 'andadoso'), ('correctAns', 'n')]), OrderedDict([('word', 'garrupia'), ('correctAns', 'n')]), OrderedDict([('word', 'temporante'), ('correctAns', 'n')]), OrderedDict([('word', 'gatar'), ('correctAns', 'n')]), OrderedDict([('word', 'caplosos'), ('correctAns', 'n')]), OrderedDict([('word', 'discribiente'), ('correctAns', 'n')]), OrderedDict([('word', 'ropecer'), ('correctAns', 'n')]), OrderedDict([('word', 'belingente'), ('correctAns', 'n')]), OrderedDict([('word', 'monedir'), ('correctAns', 'n')]), OrderedDict([('word', 'saboritir'), ('correctAns', 'n')]), OrderedDict([('word', 'tarjetar'), ('correctAns', 'n')]), OrderedDict([('word', 'a cotal de'), ('correctAns', 'n')]), OrderedDict([('word', 'pajano'), ('correctAns', 'n')]), OrderedDict([('word', 'espinajes'), ('correctAns', 'n')]), OrderedDict([('word', 'partanada'), ('correctAns', 'n')]), OrderedDict([('word', 'consentianza'), ('correctAns', 'n')]), OrderedDict([('word', 'inmuestro'), ('correctAns', 'n')]), OrderedDict([('word', 'calpurria'), ('correctAns', 'n')]), OrderedDict([('word', 'paritramos'), ('correctAns', 'n')]), OrderedDict([('word', 'jaldo'), ('correctAns', 'n')]), OrderedDict([('word', 'inoro'), ('correctAns', 'n')]), OrderedDict([('word', 'caliudo'), ('correctAns', 'n')]), OrderedDict([('word', 'encandente'), ('correctAns', 'n')]), OrderedDict([('word', 'compostir'), ('correctAns', 'n')]), OrderedDict([('word', 'partativa'), ('correctAns', 'n')]), OrderedDict([('word', 'carretante'), ('correctAns', 'n')]), OrderedDict([('word', 'verdarizante'), ('correctAns', 'n')]), OrderedDict([('word', 'sagón'), ('correctAns', 'n')]), OrderedDict([('word', 'soñarezco'), ('correctAns', 'n')]), OrderedDict([('word', 'tradizo'), ('correctAns', 'n')]), OrderedDict([('word', 'nisernita'), ('correctAns', 'n')])]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="conditions.xlsx" valType="str"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="code"/>
+      <Param name="name" updates="None" val="trials" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="trial"/>
+    <LoopTerminator name="trials"/>
+    <Routine name="final"/>
+  </Flow>
+</PsychoPy2experiment>
